@@ -34,7 +34,7 @@ float tot,gt;
   printf(" \n\n\t\t\t\t  W E L C O M E ");
   printf(" \n\t\t\t   EVOLVE ELECTRONICS Pvt. Ltd.");
   printf(" \n\t\t\t    Plot no. 85 Bus Stand Road,");
-  printf(" \n\t\t\t    ShivajiNagar,PUNE:- 411003.");
+  printf(" \n\t\t\t    Pimpri,PUNE:- 411003.");
   printf("\n\n -------------------------------------------------------------------------------");
   printf("\nEnter The No.of Products: ");
   scanf("%d",&a);
