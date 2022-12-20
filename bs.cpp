@@ -51,6 +51,7 @@ float tot,gt;
 	    printf("\n\t 12:- Samsung \n\t 13:- MI \n\t 14:- Apple \n\t 15:- Oneplus");
 	    printf("\n ENTER HERE:");
 	    scanf("%d",&c1);
+
 	    switch(c1)
 	    {
 		  case 12:
@@ -65,6 +66,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*40000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -73,6 +75,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*24000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -81,6 +84,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*30000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -89,6 +93,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*13000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -111,6 +116,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*10000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -119,6 +125,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*35000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -127,6 +134,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*25000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -135,13 +143,13 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*9000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
 			  default:
 			       printf("enter the valid input");
-
-		       }
+				   }
 		  break;
 
 		  case 14:
@@ -156,6 +164,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*25000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -172,6 +181,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*35000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -180,6 +190,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*40000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -201,6 +212,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*25000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
+				grand(tot,gt);
 				
 			  break;
 
@@ -209,7 +221,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*15000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -217,7 +229,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*45000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -225,7 +237,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*40000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -260,7 +272,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*550;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -268,7 +280,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*2000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -276,7 +288,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*1500;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -284,7 +296,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*2500;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -306,7 +318,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*450;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -314,7 +326,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*1500;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -322,7 +334,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*1000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -330,7 +342,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*2000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -353,7 +365,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*700;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -361,7 +373,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*2500;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -369,7 +381,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*2000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -377,7 +389,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*3000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -401,7 +413,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*600;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -409,7 +421,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*1800;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -417,7 +429,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*1300;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -425,7 +437,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*2300;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -462,7 +474,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*60000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -470,7 +482,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*55000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -478,7 +490,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*50000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -486,7 +498,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*45000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -508,7 +520,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*60000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -516,7 +528,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*55000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -524,7 +536,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*50000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -532,7 +544,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*45000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -555,7 +567,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*60000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -563,7 +575,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*55000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -571,7 +583,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*50000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -579,7 +591,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*45000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -601,7 +613,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*60000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -609,7 +621,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*55000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -617,7 +629,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*50000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -625,7 +637,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*45000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -660,7 +672,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*15000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -668,7 +680,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*12000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -676,7 +688,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*6000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -684,7 +696,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*10000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -706,7 +718,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*15500;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -714,7 +726,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*13500;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -722,7 +734,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*10000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -730,7 +742,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*7000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 
 			  break;
 
@@ -754,7 +766,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*14000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -762,7 +774,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*17000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -770,7 +782,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*12000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -778,7 +790,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*9000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  default:
@@ -800,7 +812,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*15000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 2:
@@ -808,7 +820,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*13000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 3:
@@ -816,7 +828,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*11000;
 				printf("\n\n\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 			  break;
 
 			  case 4:
@@ -824,7 +836,7 @@ float tot,gt;
 				scanf("%d",&qt);
 				tot=qt*9000;
 				printf("\n\n\t\t\t\t\t\t Total amount is = %f",tot);
-				
+				grand(tot,gt);
 
 			  break;
 
@@ -847,10 +859,7 @@ float tot,gt;
 
   }
 
-//   for(i=0;i<a;i++)
-//   {
-// 	   printf("\n%d",&pur[i]);
-//   }
+
 
 return 0;
 }
